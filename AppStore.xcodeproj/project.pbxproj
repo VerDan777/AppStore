@@ -13,6 +13,7 @@
 		D57B0B6D228D3D9D004DD51A /* AppStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D57B0B6B228D3D9D004DD51A /* AppStore.xcdatamodeld */; };
 		D57B0B6F228D3D9F004DD51A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57B0B6E228D3D9F004DD51A /* Assets.xcassets */; };
 		D57B0B72228D3D9F004DD51A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57B0B70228D3D9F004DD51A /* LaunchScreen.storyboard */; };
+		D5E726F8228D837200C9014F /* AppsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E726F7228D837200C9014F /* AppsCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D57B0B6E228D3D9F004DD51A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D57B0B71228D3D9F004DD51A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D57B0B73228D3D9F004DD51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E726F7228D837200C9014F /* AppsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,8 @@
 		D57B0B63228D3D9D004DD51A /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				D5E726F6228D832200C9014F /* Contrllers */,
 				D57B0B64228D3D9D004DD51A /* AppDelegate.swift */,
-				D57B0B66228D3D9D004DD51A /* ViewController.swift */,
 				D57B0B68228D3D9D004DD51A /* Main.storyboard */,
 				D57B0B6E228D3D9F004DD51A /* Assets.xcassets */,
 				D57B0B70228D3D9F004DD51A /* LaunchScreen.storyboard */,
@@ -65,6 +67,15 @@
 				D57B0B6B228D3D9D004DD51A /* AppStore.xcdatamodeld */,
 			);
 			path = AppStore;
+			sourceTree = "<group>";
+		};
+		D5E726F6228D832200C9014F /* Contrllers */ = {
+			isa = PBXGroup;
+			children = (
+				D57B0B66228D3D9D004DD51A /* ViewController.swift */,
+				D5E726F7228D837200C9014F /* AppsCollectionViewController.swift */,
+			);
+			path = Contrllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E726F8228D837200C9014F /* AppsCollectionViewController.swift in Sources */,
 				D57B0B6D228D3D9D004DD51A /* AppStore.xcdatamodeld in Sources */,
 				D57B0B67228D3D9D004DD51A /* ViewController.swift in Sources */,
 				D57B0B65228D3D9D004DD51A /* AppDelegate.swift in Sources */,
